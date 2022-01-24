@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n1:SubmitBooking xmlns:n1="http://xml.inttra.com/booking/services/01">
+<Header>
+<SenderId>INTTRA</SenderId>
+<ReceiverId>WWA</ReceiverId>
+<DateTimeStamp>2021-05-17T09:00:31</DateTimeStamp>
+<ID>100159334047</ID>
+<SchemaVersion>1.0</SchemaVersion>
+</Header>
+<Transactions>
+<Transaction>
+<Properties>
+<TransactionStatus>Original</TransactionStatus>
+<TransactionVersion>2.0</TransactionVersion>
+<TransactionSource>I-LINK</TransactionSource>
+<TransactionSplitIndicator>false</TransactionSplitIndicator>
+<InttraReferenceNumber>2010636389</InttraReferenceNumber>
+<ContactInformation>
+<Type>InformationContact</Type>
+<Name>MATS ALGOET</Name>
+<CommunicationDetails>
+<Phone>0032 3 360 1610</Phone>
+<Email>Mats.Algoet@be.rhenus.com</Email>
+</CommunicationDetails>
+</ContactInformation>
+<DateTime Type="DateTime">2021-05-17T09:00:31</DateTime
+<MovementType>PortToPort</MovementType>
+<TransportService>LCL</TransportService>
+<PerContainerReleaseNbrReqst>false</PerContainerReleaseNbrReqst>
+<GeneralInformation>
+<Text>[FCL] BOOKING IS ARRANGED AS AGENTS FOR CLOUD OCEAN LINES LTD. SEE ALSO OUR GEN.EDI-BOOKING COND.AS SEPARATELY INFORMED YOU!!</Text>
+</GeneralInformation>
+<Location>
+<Type>BookingOffice</Type>
+<Identifier Type="UNLOC">BEANR</Identifier>
+<Name>ANTWERPEN</Name>
+<CountryCode>BE</CountryCode>
+</Location>
+<Location>
+<Type>PlaceOfDelivery</Type>
+<Identifier Type="UNLOC">ZADUR</Identifier>
+<Name>DURBAN</Name>
+<CountryCode>ZA</CountryCode>
+</Location>
+<Location>
+<Type>PlaceOfReceipt</Type>
+<Identifier Type="UNLOC">BEANR</Identifier>
+<Name>ANTWERPEN</Name>
+<CountryCode>BE</CountryCode>
+<DateTime Type="DateTime" DateType="EarliestDeparture">2021-05-27T00:00:00</DateTime>
+</Location>
+<ReferenceInformation Type="FreightForwarderRefNumber">
+<Value>180171.102573.408784(MAL)</Value>
+</ReferenceInformation>
+<ReferenceInformation Type="ShipperReferenceNumber">
+<Value>180171.102573.408784</Value>
+</ReferenceInformation>
+<TransportationDetails TransportMode="MaritimeTransport" TransportStage="Main">
+<ConveyanceInformation>
+<Identifier Type="VoyageNumber">.</Identifier>
+<Identifier Type="VesselName">MSC MARINA</Identifier>
+<OperatorIdentifier Type="SCACCode">WAIC</OperatorIdentifier>
+</ConveyanceInformation>
+<Location>
+<Type>PortOfLoad</Type>
+<Identifier Type="UNLOC">BEANR</Identifier>
+<Name>ANTWERPEN</Name>
+<CountryName>BELGIUM</CountryName>
+<CountryCode>BE</CountryCode>
+<DateTime Type="DateTime" DateType="EstimatedDeparture">2021-05-27T00:00:00</DateTime>
+</Location>
+<Location>
+<Type>PortOfDischarge</Type>
+<Identifier Type="UNLOC">ZADUR</Identifier>
+<Name>DURBAN</Name>
+<CountryName>SOUTH-AFRICA</CountryName>
+<CountryCode>ZA</CountryCode>
+<DateTime Type="DateTime" DateType="EstimatedArrival">2021-06-19T00:00:00</DateTime>
+</Location>
+</TransportationDetails>
+<Party>
+<Role>Shipper</Role>
+<Name>RHENUS AIR &amp; OCEAN NV AS AGENT</Name>
+<Address>
+<StreetAddress>FOR AND ON BEHALF OF CLOUD OCEANLINE LTD - NOORDERSINGEL 21 - 2140BORGERHOUT - BELGIUMVAT BE0404804061</StreetAddress>
+</Address>
+</Party>
+<Party>
+<Role>Consignee</Role>
+<Name>RHENUS LOGISTICS (PTY) LTD.</Name>
+<Address>
+<StreetAddress>UNIT 3, 3 DRAKENSBERG DRIVELONGMEADOW BUSINESS ESTATE WEST1609 EDENVALESOUTH-AFRICA</StreetAddress>
+</Address>
+</Party>
+<Party>
+<Role>MainNotifyParty</Role>
+<Name>SAME AS CONSIGNEE</Name>
+<Address>
+<StreetAddress>P: 0027116080100F: 0027116080111E: EREQUESTS@ZA.RHENUS.COM</StreetAddress>
+</Address>
+</Party>
+<Party>
+<Role>Carrier</Role>
+<Name>World Wide Alliance (WWA) as NVOCC</Name>
+<Identifier Type="PartnerAlias">WAIC</Identifier>
+<Address>
+<StreetAddress>80 Washington Street</StreetAddress>
+<CityName>HOBOKEN</CityName>
+<Subdivision>NEW JERSEY</Subdivision>
+<PostalCode>07030</PostalCode>
+<CountryCode>US</CountryCode>
+<CountryName>UNITED STATES</CountryName>
+</Address>
+</Party>
+<Party>
+<Role>Forwarder</Role>
+<Name>RHENUS AIR &amp; OCEAN N.V.</Name>
+<Identifier Type="PartnerAlias">edi_rhenus_prod#RAO-ANR</Identifier>
+<Address>
+<StreetAddress>NOORDERSINGEL 212140 ANTWERPENBELGIUM</StreetAddress>
+</Address>
+<Contacts>
+<Type>InformationContact</Type>
+<Name>MATS ALGOET</Name>
+<CommunicationDetails>
+<Phone>0032 3 360 1610</Phone>
+<Email>Mats.Algoet@be.rhenus.com</Email>
+</CommunicationDetails>
+</Contacts>
+</Party>
+<Party>
+<Role>Booker</Role>
+<Name>Rhenus Air &amp; Ocean N.V.</Name>
+<Identifier Type="PartnerAlias">edi_rhenus_prod#RAO-ANR</Identifier>
+<Address>
+<StreetAddress>Noordersingel 21BORGERHOUT (ANTWERPEN)</StreetAddress>
+<CityName>ANTWERPEN</CityName>
+<Subdivision>ANTWERPEN</Subdivision>
+<PostalCode>2140</PostalCode>
+<CountryCode>BE</CountryCode>
+<CountryName>BELGIUM</CountryName>
+</Address>
+<Contacts>
+<Type>InformationContact</Type>
+<Name>MATS ALGOET</Name>
+<CommunicationDetails>
+<Phone>0032 3 360 1610</Phone>
+<Email>Mats.Algoet@be.rhenus.com</Email>
+</CommunicationDetails>
+</Contacts>
+<ChargeCategory ChargeType="OceanFreight">
+<PrepaidCollector PrepaidorCollectIndicator="PrePaid"/>
+</ChargeCategory>
+</Party>
+</Properties>
+<Details>
+<GoodsDetails>
+<LineNumber>1</LineNumber>
+<OuterPack>
+<NumberOfPackages>1</NumberOfPackages>
+<PackageTypeCode>BG</PackageTypeCode>
+<PackageTypeDescription>PACKAGES</PackageTypeDescription>
+<GoodGrossVolume UOM="MTQ">3.1152</GoodGrossVolume>
+<GoodGrossWeight UOM="KGM">436.000</GoodGrossWeight>
+<GoodsDescription>DOOR ACCESSORIES</GoodsDescription>
+<TransportableUnitDimensions UOM="Meter">
+<Length>5.9</Length>
+<Width>0.66</Width>
+<Height>0.8</Height>
+<NumberOfTransportableUnit>1</NumberOfTransportableUnit>
+</TransportableUnitDimensions>
+</OuterPack>
+</GoodsDetails>
+<EquipmentDetails FullEmptyIndicator="Full" EquipmentSupplier="CarrierSupplied">
+<EquipmentIdentifier EquipmentIdentifierType="LogicalContainerNumber">LCL001</EquipmentIdentifier>
+<EquipmentType>
+<EquipmentTypeCode>22G1</EquipmentTypeCode>
+<EquipmentDescription>LCL Description</EquipmentDescription>
+</EquipmentType>
+<NumberOfEquipment>1</NumberOfEquipment>
+<ImportExportHaulage>
+<CargoMovementType>FCL/FCL</CargoMovementType>
+<HaulageArrangements>MerchantExportHaulageMerchantImportHaulage</HaulageArrangements>
+</ImportExportHaulage>
+<NonActiveReefer>false</NonActiveReefer>
+</EquipmentDetails>
+</Details>
+</Transaction>
+</Transactions>
+</n1:SubmitBooking>

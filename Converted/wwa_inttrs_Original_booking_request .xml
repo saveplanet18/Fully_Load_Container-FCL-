@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<BookingRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:noNamespaceSchemaLocation="http://wiki.wwalliance.com/wiki/images/b/bd/WWA_Booking_Request_version_1.1.0.xsd">
+  <BookingEnvelope>
+    <SenderID>edi_dachser_prod</SenderID>
+    <ReceiverID>wwalliance</ReceiverID>
+    <Password>test</Password>
+    <Type>BookingRequest</Type>
+    <Version>1.1.0</Version>
+    <EnvelopeID>2145</EnvelopeID>
+  </BookingEnvelope>
+  <BookingDetails>
+    <BookingType>F</BookingType>
+    <BookingDate>2020-04-24</BookingDate>
+    <LastSentDate>2020-04-24</LastSentDate>
+    <RequestType>N</RequestType>
+    <CustomerControlCode>DAC378</CustomerControlCode>
+    <FPI>C</FPI>
+    <BookingOffice>CNCAN</BookingOffice>
+    <CommunicationReference>15301530222</CommunicationReference>
+    <ForwarderReference>7823783Test24</ForwarderReference>
+    <CustomerReference>7823783Test24</CustomerReference>
+    <BookingNumber></BookingNumber>
+    <WWAReference></WWAReference>
+    <Address>
+      <AddressID>CN</AddressID>
+      <AddressLine1>DACHSER SE</AddressLine1>
+      <AddressLine2>Sea Freight Gateway Hamburg Air &amp; Sea Logistics Wilhelm-Iwan-Ring 21 DE 21035  Hamburg</AddressLine2>
+      <AddressLine3>21035</AddressLine3>
+    </Address>
+    <Address>
+      <AddressID>SH</AddressID>
+      <AddressLine1>DACHSER Shenzhen Co.,Ltd.</AddressLine1>
+      <AddressLine2>Guangzhou Branch Center Plaza, No.161 Linhexi Road Rm 3005-3006, 30/F, Tower A CN 510620  Tianhe District,Guangzho</AddressLine2>
+      <AddressLine3>510620</AddressLine3>
+    </Address>
+    <CustomerContact>Huang</CustomerContact>
+    <CustomerPhone/>
+    <CustomerEmail>kayi.huang@dachser.com</CustomerEmail>
+    <BUCustomerEmail/>
+    <OnHold/>
+    <HVC/>
+    <BondedCargo/>
+    <CFSOrigin>CNHUA</CFSOrigin>
+    <PortOfLoading>CNHUA</PortOfLoading>
+    <CFSDestination>DEHAM</CFSDestination>
+    <PortOfDischarge>DEHAM</PortOfDischarge>
+    <FinalDestination>DEHAM</FinalDestination>
+    <FinalDestinationPlace>HAMBURG</FinalDestinationPlace>
+    <FinalDestinationType>CFS</FinalDestinationType>
+    <FinalDestinationCountry>GERMANY</FinalDestinationCountry>
+    <OncarriageFlag/>
+    <OncarriagePlace/>
+    <AmsFlag/>
+    <AesFlag/>
+    <SailingDetails>
+      <VesselVoyageID>011w</VesselVoyageID>
+      <VesselName>YM CYPRESS</VesselName>
+      <IMONumber/>
+      <Voyage>011w</Voyage>
+      <ETDCFS>2020-05-05</ETDCFS>
+      <ETACFS>2020-06-11</ETACFS>
+      <ETSOrigin>2020-05-05</ETSOrigin>
+      <ETSPol>2020-05-05</ETSPol>
+    </SailingDetails>
+    <PickupFlag>N</PickupFlag>
+    <CargoDetails>
+      <Pieces>1</Pieces>
+      <ShippingMarks/>
+      <Packaging/>
+      <Commodity>Frequency Inverter HS CODE:8504409999 Brake </Commodity>
+      <Commodity>resistor HS CODE:8533290000</Commodity>
+      <Weight>169</Weight>
+      <Volume>0.85</Volume>
+      <UOM>M</UOM>
+      <HazardousFlag>N</HazardousFlag>
+      <OverDimensionFlag>N</OverDimensionFlag>
+    </CargoDetails>
+  </BookingDetails>
+</BookingRequest>

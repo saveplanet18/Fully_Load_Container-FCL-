@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<BookingRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:noNamespaceSchemaLocation="http://wiki.wwalliance.com/wiki/images/b/bd/WWA_Booking_Request_version_1.1.0.xsd">
+  <BookingEnvelope>
+    <SenderID>edi_rhenus_prod</SenderID>
+    <ReceiverID>wwalliance</ReceiverID>
+    <Password>test</Password>
+    <Type>BookingRequest</Type>
+    <Version>1.1.0</Version>
+    <EnvelopeID>100159334047</EnvelopeID>
+  </BookingEnvelope>
+  <BookingDetails>
+    <BookingType>F</BookingType>
+    <BookingDate>2021-05-17</BookingDate>
+    <LastSentDate>2021-05-17</LastSentDate>
+    <RequestType>N</RequestType>
+    <CustomerControlCode>RAO-ANR</CustomerControlCode>
+    <FPI>P</FPI>
+    <BookingOffice>BEANR</BookingOffice>
+    <CommunicationReference>2010636389</CommunicationReference>
+    <ForwarderReference>180171.102573.408784(MAL)</ForwarderReference>
+    <CustomerReference>180171.102573.408784(MAL)</CustomerReference>
+    <BookingNumber></BookingNumber>
+    <WWAReference></WWAReference>
+    <ShipperReference>180171.102573.408784</ShipperReference>
+    <Address>
+      <AddressID>SH</AddressID>
+      <AddressLine1>RHENUS AIR &amp; OCEAN NV AS AGENT</AddressLine1>
+      <AddressLine2>FOR AND ON BEHALF OF CLOUD OCEANLINE LTD - NOORDERSINGEL 21 - 2140BORGERHOUT - BELGIUMVAT BE0404804061</AddressLine2>
+    </Address>
+    <Address>
+      <AddressID>CN</AddressID>
+      <AddressLine1>RHENUS LOGISTICS (PTY) LTD.</AddressLine1>
+      <AddressLine2>UNIT 3, 3 DRAKENSBERG DRIVELONGMEADOW BUSINESS ESTATE WEST1609 EDENVALESOUTH-AFRICA</AddressLine2>
+    </Address>
+    <CustomerContact>MATS ALGOET</CustomerContact>
+    <CustomerPhone>0032 3 360 1610</CustomerPhone>
+    <CustomerEmail>Mats.Algoet@be.rhenus.com</CustomerEmail>
+    <BUCustomerEmail/>
+    <OnHold/>
+    <HVC/>
+    <BondedCargo/>
+    <CFSOrigin>BEANR</CFSOrigin>
+    <PortOfLoading>BEANR</PortOfLoading>
+    <CFSDestination>ZADUR</CFSDestination>
+    <PortOfDischarge>ZADUR</PortOfDischarge>
+    <FinalDestination>ZADUR</FinalDestination>
+    <FinalDestinationPlace>DURBAN</FinalDestinationPlace>
+    <FinalDestinationType>CFS</FinalDestinationType>
+    <FinalDestinationCountry>SOUTH-AFRICA</FinalDestinationCountry>
+    <OncarriageFlag/>
+    <OncarriagePlace/>
+    <AmsFlag/>
+    <AesFlag/>
+    <Remarks>[LCL] BOOKING IS ARRANGED AS AGENTS FOR CLOUD OCEAN LINES LTD. SEE ALSO OUR GEN.EDI-BOOKING COND.AS SEPARATELY INFORMED YOU!!</Remarks>
+    <SailingDetails>
+      <VesselVoyageID>.</VesselVoyageID>
+      <VesselName>MSC MARINA</VesselName>
+      <IMONumber/>
+      <Voyage>.</Voyage>
+      <ETDCFS>2021-05-27</ETDCFS>
+      <ETACFS>2021-06-19</ETACFS>
+      <ETSOrigin>2021-05-27</ETSOrigin>
+      <ETSPol>2021-05-27</ETSPol>
+    </SailingDetails>
+    <PickupFlag>N</PickupFlag>
+    <CargoDetails>
+      <Pieces>1</Pieces>
+      <ShippingMarks/>
+      <Packaging>PACKAGES</Packaging>
+      <Commodity>DOOR ACCESSORIES</Commodity>
+      <Weight>436.000</Weight>
+      <Volume>3.1152</Volume>
+      <UOM>M</UOM>
+      <HazardousFlag>N</HazardousFlag>
+      <OverDimensionFlag>N</OverDimensionFlag>
+    </CargoDetails>
+  </BookingDetails>
+</BookingRequest>

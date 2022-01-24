@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n1:SubmitBooking xmlns:n1="http://xml.inttra.com/booking/services/01">
+<Header>
+<SenderId>INTTRA</SenderId>
+<ReceiverId>WWA</ReceiverId>
+<DateTimeStamp>2020-04-24T03:56:00</DateTimeStamp>
+<ID>2145</ID>
+<SchemaVersion>1.0</SchemaVersion>
+</Header>
+<Transactions>
+<Transaction>
+<Properties>
+<TransactionStatus>Original</TransactionStatus>
+<TransactionVersion>2.0</TransactionVersion>
+<TransactionSource>I-LINK</TransactionSource>
+<TransactionSplitIndicator>false</TransactionSplitIndicator>
+<DocumentIdentifier>2145</DocumentIdentifier>
+<InttraReferenceNumber>15301530222</InttraReferenceNumber>
+<ContactInformation>
+<Type>InformationContact</Type>
+<Name>Huang</Name>
+<CommunicationDetails>
+<Email>kayi.huang@dachser.com</Email>
+</CommunicationDetails>
+</ContactInformation>
+<DateTime Type="DateTime">2020-04-24T03:56:00</DateTime>
+<MovementType>PortToPort</MovementType>
+<TransportService>FCL</TransportService>
+<Location>
+<Type>PlaceOfDelivery</Type>
+<Identifier Type="UNLOC">DEHAM</Identifier>
+<Name>HAMBURG</Name>
+<Subdivision>HH</Subdivision>
+<CountryName>GERMANY</CountryName>
+<CountryCode>DE</CountryCode>
+<DateTime Type="DateTime" DateType="LatestDelivery">2020-06-11T00:00:00</DateTime>
+</Location>
+<Location>
+<Type>PlaceOfReceipt</Type>
+<Identifier Type="UNLOC">CNCAN</Identifier>
+<Name>GUANGZHOU BAIYUN INTERNATIONAL APT</Name>
+<Subdivision>44</Subdivision>
+<CountryName>CHINA</CountryName>
+<CountryCode>CN</CountryCode>
+<DateTime Type="DateTime" DateType="EarliestDeparture">2020-05-05T00:00:00</DateTime>
+</Location>
+<Location>
+<Type>BookingOffice</Type>
+<Identifier Type="UNLOC">CNCAN</Identifier>
+<Name>GUANGZHOU BAIYUN INTERNATIONAL APT</Name>
+<Subdivision>44</Subdivision>
+<CountryName>CHINA</CountryName>
+<CountryCode>CN</CountryCode>
+</Location>
+<ReferenceInformation Type="ContractNumber">
+<Value>FAK</Value>
+</ReferenceInformation>
+<ReferenceInformation Type="FreightForwarderRefNumber">
+<Value>7823783Test24</Value>
+</ReferenceInformation>
+<TransportationDetails TransportStage="Main">
+<ConveyanceInformation>
+<Identifier Type="VoyageNumber">011w</Identifier>
+<Identifier Type="VesselName">YM CYPRESS</Identifier>
+<OperatorIdentifier Type="SCACCode">SHPT</OperatorIdentifier>
+</ConveyanceInformation>
+<Location>
+<Type>PortOfLoad</Type>
+<Identifier Type="UNLOC">CNHUA</Identifier>
+<Name>HUANGPU PT</Name>
+<Subdivision>44</Subdivision>
+<CountryName>CHINA</CountryName>
+<CountryCode>CN</CountryCode>
+<DateTime Type="DateTime" DateType="EstimatedDeparture">2020-05-05T00:00:00</DateTime>
+</Location>
+<Location>
+<Type>PortOfDischarge</Type>
+<Identifier Type="UNLOC">DEHAM</Identifier>
+<Name>HAMBURG</Name>
+<Subdivision>HH</Subdivision>
+<CountryName>GERMANY</CountryName>
+<CountryCode>DE</CountryCode>
+<DateTime Type="DateTime" DateType="EstimatedArrival">2020-06-11T00:00:00</DateTime>
+</Location>
+</TransportationDetails>
+<Party>
+<Role>Booker</Role>
+<Name>DACHSER Shenzhen Co.,Ltd.</Name>
+<Identifier Type="PartnerAlias">edi_dachser_prod#DAC378</Identifier>
+<Address>
+<StreetAddress>Guangzhou Branch Center Plaza, No.161 Linhexi Road Rm 3005-3006, 30/F, Tower A CN 510620  Tianhe District,Guangzho</StreetAddress>
+<PostalCode>510620</PostalCode>
+<CountryCode>CN</CountryCode>
+<CountryName>China</CountryName>
+</Address>
+<Contacts>
+<Type>InformationContact</Type>
+<Name>Huang</Name>
+<CommunicationDetails><Phone>+862038879866-137</Phone>
+<Fax>+8620-38878686</Fax>
+<Email>kayi.huang@dachser.com</Email>
+</CommunicationDetails>
+</Contacts><ChargeCategory ChargeType="OceanFreight">
+<PrepaidCollector PrepaidorCollectIndicator="Collect">Collect</PrepaidCollector>
+<ChargeLocation><Type>PlaceOfPayment</Type>
+<Identifier Type="UNLOC">DEHAM</Identifier>
+<Name>HAMBURG</Name>
+<Subdivision>HH</Subdivision>
+<CountryName>GERMANY</CountryName>
+<CountryCode>DE</CountryCode>
+</ChargeLocation>
+</ChargeCategory>
+</Party>
+<Party>
+<Role>Carrier</Role>
+<Name>SHPT</Name>
+<Identifier Type="PartnerAlias">SHPT</Identifier>
+</Party>
+<Party>
+<Role>Consignee</Role>
+<Name>DACHSER SE</Name>
+<Address>
+<StreetAddress>Sea Freight Gateway Hamburg Air &amp; Sea Logistics Wilhelm-Iwan-Ring 21 DE 21035  Hamburg</StreetAddress>
+<PostalCode>21035</PostalCode>
+<CountryCode>DE</CountryCode>
+<CountryName>Germany</CountryName>
+</Address>
+<Contacts>
+<Type>InformationContact</Type>
+<Name>Mr./Mrs.</Name>
+<CommunicationDetails>
+<Phone>+49 40 78116 550</Phone>
+<Fax>040/78116-194</Fax>
+<Email>dachser.hamburg-sea-gateway@dachser.com</Email>
+</CommunicationDetails>
+</Contacts>
+</Party>
+<Party>
+<Role>Forwarder</Role>
+<Name>DACHSER Shenzhen Co.,Ltd.</Name>
+<Identifier Type="PartnerAlias">edi_dachser_prod#DAC378</Identifier>
+<Address>
+<StreetAddress>Guangzhou Branch Center Plaza, No.161 Linhexi Road Rm 3005-3006, 30/F, Tower A CN 510620  Tianhe District,Guangzho</StreetAddress>
+<PostalCode>510620</PostalCode>
+<CountryCode>CN</CountryCode>
+<CountryName>China</CountryName>
+</Address>
+</Party>
+<Party>
+<Role>Shipper</Role>
+<Name>DACHSER Shenzhen Co.,Ltd.</Name>
+<Address>
+<StreetAddress>Guangzhou Branch Center Plaza, No.161 Linhexi Road Rm 3005-3006, 30/F, Tower A CN 510620  Tianhe District,Guangzho</StreetAddress>
+<PostalCode>510620</PostalCode>
+<CountryCode>CN</CountryCode>
+<CountryName>China</CountryName>
+</Address><Contacts>
+<Type>InformationContact</Type>
+<Name>Mr./Mrs.</Name>
+<CommunicationDetails>
+<Phone>+86 20 3887 9866</Phone>
+<Fax>+86 20 3887 8686</Fax>
+<Email>dachser.guangzhou-asl@dachser.com</Email>
+</CommunicationDetails>
+</Contacts>
+</Party>
+</Properties>
+<Details>
+<GoodsDetails>
+<LineNumber>1</LineNumber>
+<OuterPack>
+<NumberOfPackages>1</NumberOfPackages>
+<PackageTypeCode>PX</PackageTypeCode>
+<GoodGrossVolume UOM="MTQ">0.85</GoodGrossVolume>
+<GoodGrossWeight UOM="KGM">169</GoodGrossWeight>
+<GoodsDescription>Frequency Inverter HS CODE:8504409999 Brake resistor HS CODE:8533290000</GoodsDescription>
+</OuterPack>
+</GoodsDetails>
+<EquipmentDetails EquipmentSupplier="CarrierSupplied">
+<EquipmentIdentifier EquipmentIdentifierType="LogicalContainerNumber">00000000001</EquipmentIdentifier>
+<EquipmentType>
+<EquipmentTypeCode>22G0</EquipmentTypeCode>
+</EquipmentType>
+<NumberOfEquipment>1</NumberOfEquipment>
+<ImportExportHaulage>
+<CargoMovementType>FCL</CargoMovementType>
+<HaulageArrangements>MerchantExportHaulageMerchantImportHaulage</HaulageArrangements>
+</ImportExportHaulage>
+<EquipmentComments>
+<Category>GeneralEquipmentComments</Category>
+<Text>[FCL]</Text>
+</EquipmentComments>
+</EquipmentDetails>
+</Details>
+</Transaction>
+</Transactions>
+</n1:SubmitBooking>

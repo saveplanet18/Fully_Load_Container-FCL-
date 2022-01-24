@@ -1,0 +1,100 @@
+mysql> desc boo_Booking;
++--------------------------------+-------------------------------------------------------------+------+-----+---------------------+----------------+
+| Field                          | Type                                                        | Null | Key | Default             | Extra          |
++--------------------------------+-------------------------------------------------------------+------+-----+---------------------+----------------+
+| iBookingID                     | int(11)                                                     | NO   | PRI | NULL                | auto_increment |
+| iCompanyID                     | int(11)                                                     | NO   |     | 0                   |                |
+| iBookingnumID                  | int(11)                                                     | NO   | UNI | 0                   |                |
+| cBookingnumber                 | varchar(20)                                                 | NO   |     | 0                   |                |
+| cBookingType                   | varchar(2)                                                  | NO   |     | C                   |                |
+| iUserID                        | int(11)                                                     | NO   | MUL | 0                   |                |
+| iVesselvoyageidentifier        | int(11)                                                     | NO   |     | 0                   |                |
+| iImo                           | int(11)                                                     | NO   |     | 0                   |                |
+| tBookingdate                   | date                                                        | NO   |     | 0000-00-00          |                |
+| tLastsentdate                  | datetime                                                    | NO   |     | 0000-00-00 00:00:00 |                |
+| iMemberID                      | int(11)                                                     | NO   |     | 0                   |                |
+| iPortalID                      | int(5)                                                      | NO   |     | 0                   |                |
+| cHandlingoffice                | char(3)                                                     | NO   |     |                     |                |
+| cEisendingoffice               | varchar(20)                                                 | NO   |     |                     |                |
+| cBookingoffice                 | varchar(5)                                                  | NO   |     |                     |                |
+| cCms                           | varchar(25)                                                 | NO   |     |                     |                |
+| cPickup                        | enum('N','Y')                                               | NO   |     | N                   |                |
+| cCombinedaddress               | text                                                        | YES  |     | NULL                |                |
+| cCompanyname                   | varchar(30)                                                 | NO   |     |                     |                |
+| cCity                          | varchar(20)                                                 | NO   |     |                     |                |
+| cState                         | varchar(35)                                                 | NO   |     |                     |                |
+| cAddress                       | varchar(50)                                                 | NO   |     |                     |                |
+| cCountry                       | varchar(30)                                                 | NO   |     |                     |                |
+| cPostalcode                    | varchar(10)                                                 | NO   |     |                     |                |
+| cPhone                         | varchar(20)                                                 | NO   |     |                     |                |
+| cContactperson                 | varchar(50)                                                 | YES  |     | NULL                |                |
+| cFax                           | varchar(20)                                                 | NO   |     |                     |                |
+| cEmail                         | varchar(50)                                                 | NO   |     |                     |                |
+| cBucustomeremail               | varchar(50)                                                 | YES  |     | NULL                |                |
+| cOrigin                        | varchar(5)                                                  | NO   |     |                     |                |
+| cPortofloding                  | varchar(5)                                                  | NO   |     |                     |                |
+| cRoutingvia                    | varchar(5)                                                  | NO   |     |                     |                |
+| cVessel                        | varchar(50)                                                 | YES  |     | NULL                |                |
+| cVoyage                        | varchar(10)                                                 | NO   |     |                     |                |
+| tCutoff                        | date                                                        | NO   |     | 0000-00-00          |                |
+| tEta                           | date                                                        | NO   |     | 0000-00-00          |                |
+| tEtd                           | date                                                        | NO   |     | 0000-00-00          |                |
+| tEtdPOL                        | date                                                        | NO   |     | 0000-00-00          |                |
+| tEstshipdate                   | date                                                        | NO   |     | 0000-00-00          |                |
+| cDischargecode                 | varchar(5)                                                  | NO   |     |                     |                |
+| cDestination                   | varchar(5)                                                  | NO   |     |                     |                |
+| cFinaldestinationcode          | varchar(5)                                                  | NO   |     |                     |                |
+| cFinaldestination              | varchar(50)                                                 | NO   |     |                     |                |
+| cFinaldestinationtype          | varchar(10)                                                 | NO   |     |                     |                |
+| cFinaldestinationcountry       | varchar(50)                                                 | NO   |     |                     |                |
+| cOncarriage                    | enum('Y','N')                                               | NO   |     | N                   |                |
+| cOncarriagelocation            | varchar(20)                                                 | NO   |     |                     |                |
+| cAes                           | enum('N','Y')                                               | NO   |     | N                   |                |
+| cAesdetails                    | varchar(250)                                                | NO   |     |                     |                |
+| cAms                           | enum('N','Y')                                               | NO   |     | N                   |                |
+| cAmsdetails                    | varchar(250)                                                | NO   |     |                     |                |
+| cAci                           | enum('N','Y')                                               | NO   |     | N                   |                |
+| cAcidetails                    | varchar(250)                                                | NO   |     |                     |                |
+| cFumigation                    | enum('N','Y')                                               | YES  |     | NULL                |                |
+| cCc                            | enum('N','Coload','Commodity')                              | NO   |     | N                   |                |
+| cOnwardGateway                 | enum('N','Y')                                               | NO   |     | N                   |                |
+| cShipperreference              | varchar(30)                                                 | NO   |     |                     |                |
+| cForwarderreference            | varchar(30)                                                 | NO   | MUL |                     |                |
+| cConsigneereference            | varchar(30)                                                 | NO   |     |                     |                |
+| cCustintref                    | varchar(30)                                                 | NO   | MUL |                     |                |
+| cWWAreference                  | varchar(30)                                                 | NO   | MUL | 0                   |                |
+| cQuotenumber                   | varchar(15)                                                 | NO   |     |                     |                |
+| cAgentbookingnumber            | varchar(30)                                                 | NO   |     |                     |                |
+| cHazardous                     | enum('N','Y')                                               | YES  |     | NULL                |                |
+| cSpecialcondition              | text                                                        | NO   |     | NULL                |                |
+| cType                          | enum('LBK','LBR','LQR','FBK','FBR','FQR','ABK','ABR','AQR') | YES  |     | NULL                |                |
+| cShipperrating                 | varchar(25)                                                 | NO   |     |                     |                |
+| nTotalchargeableweight         | double(10,3)                                                | NO   |     | 0.000               |                |
+| cUom                           | enum('E','M')                                               | YES  |     | NULL                |                |
+| cKnownshipper                  | enum('N','Y')                                               | NO   |     | N                   |                |
+| cWhse                          | varchar(5)                                                  | NO   |     |                     |                |
+| cPc                            | enum('P','C')                                               | YES  |     | NULL                |                |
+| cLicensedcargo                 | enum('N','Y')                                               | NO   |     | N                   |                |
+| nBookingcost                   | double(10,4)                                                | NO   |     | 0.0000              |                |
+| cApptype                       | varchar(2)                                                  | YES  |     | NULL                |                |
+| cOnhold                        | enum('N','Y')                                               | YES  |     | NULL                |                |
+| cHvc                           | enum('N','Y')                                               | YES  |     | NULL                |                |
+| cBondedcargo                   | enum('N','Y')                                               | NO   |     | N                   |                |
+| nTransportTemperatureRangeFrom | decimal(6,2)                                                | NO   |     | 0.00                |                |
+| nTransportTemperatureRangeTo   | decimal(6,2)                                                | NO   |     | 0.00                |                |
+| cCustomsRelatedData            | varchar(3000)                                               | NO   |     |                     |                |
+| cCTCCode                       | varchar(3)                                                  | NO   |     |                     |                |
+| cCTCDescription                | varchar(255)                                                | NO   |     |                     |                |
+| cCustomsContact                | varchar(65)                                                 | NO   |     |                     |                |
+| cCustomsPhone                  | varchar(65)                                                 | NO   |     |                     |                |
+| bPending                       | enum('Y','N')                                               | NO   |     | N                   |                |
+| cTemplatename                  | varchar(150)                                                | NO   |     |                     |                |
+| cMovetype                      | varchar(50)                                                 | NO   |     |                     |                |
+| cServicetype                   | varchar(50)                                                 | NO   |     |                     |                |
+| iStatus                        | int(11)                                                     | YES  |     | 0                   |                |
+| iEnteredby                     | int(11)                                                     | NO   |     | 0                   |                |
+| tEntered                       | datetime                                                    | NO   |     | 0000-00-00 00:00:00 |                |
+| iUpdatedby                     | int(11)                                                     | NO   |     | 0                   |                |
+| tUpdated                       | datetime                                                    | NO   |     | 0000-00-00 00:00:00 |                |
++--------------------------------+-------------------------------------------------------------+------+-----+---------------------+----------------+
+94 rows in set (0.00 sec)
